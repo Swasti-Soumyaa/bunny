@@ -1,0 +1,38 @@
+h3{
+    font-size: 25px !important;
+    animation-name:heading ;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading{
+    from{color: rgb(252, 116, 172);}
+    to{color:rgb(240, 53, 147) ;}
+}
+
+canvas{
+    animation-name:canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas{
+    from{box-shadow: 1px 1px 35px palevioletred;}
+    to{box-shadow: 1px 1px 35px rgb(255, 0, 149);}
+}
+
+.but{
+    color: white;
+    background-color: palevioletred;
+}
+
+h3{
+
+    color: white;
+    background-color: palevioletred;  
+}
+
+.ddown{
+    color: white;
+    background-color: palevioletred;
+}
